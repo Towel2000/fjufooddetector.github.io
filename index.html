@@ -1,66 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>今晚，我想來點...</title>
-    </head>
-<style>
+  <head>
+    <meta charset="utf-8" />
+    <title>今晚，我想來點...</title>
+  </head>
+
+  <style>
     body {
-      background:#81C0C0;
+      background: #81c0c0;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-size: 100%,100%;
+      background-size: 100%, 100%;
     }
-     .white-text{
-      color:white;
-      }
-    .big-letter{
+    .white-text {
+      color: white;
+    }
+    .big-letter {
       font-size: 70px;
     }
-    
+
     .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
-    </style>
-    <html>
-     <body>
-        <!--<h1 align="center" class="white-text">YEET This is the meme zone</h1>
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: rgb(126, 78, 16);
+      overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #533d00;
+      color: white;
+    }
+  </style>
+  <html>
+    <body>
+      <!--<h1 align="center" class="white-text">YEET This is the meme zone</h1>
         <title>YEET This is the meme zone</title>
        <center>
         <p class="white-text">For the sake of god, why would you even come this far? I'm just making my homework and felt bored so I typed all these mdfk.</p>
         <p class="white-text">Anyway this place gives you some classic memes, besure to check out!</p>
        </center>-->
-       
-       <center>
-         <h2 class="big-letter">標題</h2>
-       <img src="https://img-9gag-fun.9cache.com/photo/a7WVB9b_460s.jpg" alt="Map" usemap="#map" width="400" height="300">
-       </center>
-       <map name="map">
-         <area  shape="circle" coords="350,250,50" onclick="func()">
-       </map>
-      
-       <script>
-          function func() {
-            alert("You clicked the coffee cup!");
-          }
-       </script>
-     <body>
-    </html>
-    
 
+      <center>
+        <div class="topnav">
+          <a
+            class="active"
+            href="https://towel2000.github.io/fjufooddetector.github.io/"
+            >主頁面</a
+          >
+          <a href="#news">學校餐廳</a>
+          <a href="#contact">514餐廳</a>
+          <a href="#about">介紹與使用手冊</a>
+        </div>
+        <h2 class="big-letter">標題</h2>
+        <img
+          src="https://img-9gag-fun.9cache.com/photo/a7WVB9b_460s.jpg"
+          alt="Map"
+          usemap="#map"
+          width="400"
+          height="300"
+        />
+      </center>
+      <map name="map">
+        <area shape="circle" coords="350,250,50" onclick="func()" />
+      </map>
 
-   <center>
-    <a href="https://fjufooddetector.github.io/pg1" class="button btn btn-default target">School Section</a>
-    </center>
-    <center> 
-    <a href="https://fjufooddetector.github.io/pg2" class="button btn btn-default target">514 Section</a>
-    </center>
-            
-    <center>
-    <button href="http://fjufooddetector.github.io/">Home</button>
-    </center>
-    
-    </html>
+      <script>
+        function func() {
+          alert("You clicked the coffee cup!");
+        }
+      </script>
+    </body>
+  </html>
+
+  <center>
+    <a
+      href="https://towel2000.github.io/fjufooddetector.github.io/pg1"
+      class="button btn btn-default target"
+      >School Section</a
+    >
+  </center>
+  <center>
+    <a
+      href="https://towel2000.github.io/fjufooddetector.github.io/pg2"
+      class="button btn btn-default target"
+      >514 Section</a
+    >
+  </center>
+</html>
